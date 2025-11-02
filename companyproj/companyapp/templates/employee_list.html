@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <h1>Employee list</h1>
+        <ul>
+            {%for employee in list_employee %}
+                <li><b>{{employee.name}}</b>-{{employee.position}}</li>
+            {%endfor%}
+
+        </ul>
+    </body>
+</html>
